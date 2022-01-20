@@ -1,0 +1,96 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #333 url(./Без\ названия.jpg) no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: lard-light;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    background: url(./Без\ названия.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-attachment: fixed;
+   background-size: cover;
+   box-shadow: 0 50px 50px rgba(0,0,0,0.5),
+               0 0 0 100px rgba(0, 0, 0,.2);
+}
+
+.container h2{
+    text-align: center;
+    font-size: 10em;
+    line-height: 0.7em;
+    color: #333;
+    margin: -80px;
+}
+
+.container h2 span{
+    display: block;
+    font-weight: 300;
+    letter-spacing: 6px;
+    font-size: 0.2em;
+}
+
+.cuntdown{
+    display: flex;
+    margin: 60px;
+    padding: 2rem;
+}
+
+.cuntdown div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 0 15px;
+    font-size:1.4em;
+    font-weight: 500;
+}
+
+.cuntdown div:before{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: rgb(133, 133, 107);
+    color: #fff;
+    line-height: 35px;
+    font-style: 0.35em;
+    font-weight: 300;
+}
+
+.cuntdown #day::before{
+    content: 'Days';
+}
+
+.cuntdown #hour::before{
+    content: 'hour';
+}
+
+
+.cuntdown #minute::before{
+    content: 'minute';
+}
+.cuntdown #second::before{
+    content: 'second';
+}

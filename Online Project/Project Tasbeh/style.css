@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;  
+}
+
+body{
+    background: rgb(73, 73, 73);
+}
+
+button{
+    width: 340px;
+    height: 100px;
+    text-align: center;
+    margin: 100px 500px;
+    border: none;
+    background: rgb(134, 184, 184);
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(5, 4, 3);
+    transition: 0.5s ease;
+    border-radius: 2px;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background:  rgb(68, 238, 215);
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    color: rgb(137, 146, 146);
+}
+
